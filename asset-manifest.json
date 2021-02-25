@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/otp-component/static/css/main.94d728f6.chunk.css",
+    "main.js": "/otp-component/static/js/main.3f281643.chunk.js",
+    "main.js.map": "/otp-component/static/js/main.3f281643.chunk.js.map",
+    "runtime-main.js": "/otp-component/static/js/runtime-main.39e349ea.js",
+    "runtime-main.js.map": "/otp-component/static/js/runtime-main.39e349ea.js.map",
+    "static/js/2.412c91a4.chunk.js": "/otp-component/static/js/2.412c91a4.chunk.js",
+    "static/js/2.412c91a4.chunk.js.map": "/otp-component/static/js/2.412c91a4.chunk.js.map",
+    "static/js/3.d426efe8.chunk.js": "/otp-component/static/js/3.d426efe8.chunk.js",
+    "static/js/3.d426efe8.chunk.js.map": "/otp-component/static/js/3.d426efe8.chunk.js.map",
+    "index.html": "/otp-component/index.html",
+    "static/css/main.94d728f6.chunk.css.map": "/otp-component/static/css/main.94d728f6.chunk.css.map",
+    "static/js/2.412c91a4.chunk.js.LICENSE.txt": "/otp-component/static/js/2.412c91a4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39e349ea.js",
+    "static/js/2.412c91a4.chunk.js",
+    "static/css/main.94d728f6.chunk.css",
+    "static/js/main.3f281643.chunk.js"
+  ]
+}
