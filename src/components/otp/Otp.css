@@ -1,0 +1,27 @@
+.otp-container {
+  display: flex;
+  justify-content: center;
+}
+.otp-field {
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  width: 31px;
+  height: 31px;
+  text-align: center;
+}
+.otp-field:focus {
+  appearance: none;
+  border: 2px solid #c1c1c1;
+  outline: none;
+}
+.otp-container .otp-field:not(:first-of-type) {
+  margin-left: 13px;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

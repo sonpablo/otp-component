@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import Button from 'components/button/Button';
+import Otp from 'components/otp/Otp';
+import { useState } from 'react';
 import './App.css';
 
-function App() {
+const NUMBER_OF_DIGITS = 6
+
+export default function App() {
+
+  const [otp, setOtp] = useState('')
+
+
+  const onChangeOtp = (value) => {
+    setOtp(value)
+  }
+
+  const enableButton = () => {
+    return otp.length === NUMBER_OF_DIGITS ? false : true
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Otp numberOfDigits={NUMBER_OF_DIGITS} onChangeOtp={onChangeOtp} />
+      <p>{otp}</p>
+      <Button disabled={enableButton()} text={'Validate'} />
     </div>
   );
 }
 
-export default App;
+
